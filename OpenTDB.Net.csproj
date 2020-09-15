@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>OpenTDB.Net</PackageId>
+    <Authors>AbnerSquared</Authors>
+    <Product>OpenTDB.Net</Product>
+    <Company />
+    <Description>A C# .NET API wrapper for OpenTDB.</Description>
+    <PackageTags>api, opentdb, trivia, abnersquared, api wrapper, wrapper, trivia api</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
